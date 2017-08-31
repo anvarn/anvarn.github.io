@@ -1,0 +1,148 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+img{
+	border:0;
+}
+
+
+body{
+	background:#fff url(img/body-bg.jpg); top repeat-x font:12px Arial;
+	color:#555; 
+	line-height:1.3; 
+}
+
+.karkas{
+	width:916px;
+	margin:0 auto;
+	background:#f4f9fc;
+	border:#D9DCDD solid 1px;
+	
+}
+header{
+	padding: 10px 0 0 0;
+	margin-bottom:20px;
+}
+@font-face{
+	font-family:'Andantino script';
+	src:local('Andantino script'),
+	url(font/Andantino.ttf);
+	}
+.header-logo{
+	font-family: 'Andantino script';
+	font-size:3em;
+	font-weight:bold;
+	text-align:center;
+	color:#696969;
+	margin:-5px 0 -5px 0;
+	}
+nav ul{
+	list-style:none;
+	overflow:hidden;
+	border-bottom:3px solid #9dc5f0;
+	border-left:1px solid #f3f3f3;
+	border-top:1px solid #f3f3f3;
+	border-right:1px solid #f3f3f3; 
+	}
+nav ul li{
+	float:left;
+	padding:8px 55px; border-left:1px solid #f4f4f4
+	}
+nav ul li:first-child{
+		border-left:none;
+	}	
+	
+nav ul li a {
+		color:#5f5d67; 
+		font-size:15px; 
+		text-decoration: none; 
+		font-weight:bold; 
+		font-family: 'Open Sans', cursive;
+		}
+nav ul li a:hover{
+	text-decoration:underline;
+}
+.main-content{
+	overflow:hidden;
+}
+.main-content h1 {
+	margin-bottom:20px; 
+	font-size:24px; 
+	font-weight:normal; 
+	font-family: 'Open Sans', sans-serif;
+}
+.main-content p{
+	margin-bottom:20px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.main-content-img{
+	margin-bottom:20px;
+}
+
+article{
+	width:520px; 
+	padding:30px 30px 32000px 30px; 
+	float:left; 
+	background:#fff; 
+	margin-bottom: -32000px;
+}
+
+aside{
+	float:right; 
+	background:#fff; 
+	width:270px; 
+	padding:25px 25px 32000px 25px; 
+	margin-bottom: -32000px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size:14px;
+}
+
+ .footer{
+	padding:10px 0;
+	color:#5f5d67;
+	}
+.ftr-logo{
+	display:inline-block;
+	float:left;
+	margin:1% 8% 5% 39%;
+	font-family: 'Andantino script';
+	font-size:2.500em;
+	font-weight:bold;
+	text-align:center;
+	color:#696969;
+	}		
+.metrica{
+	display:inline-block;
+	float:right;
+	margin-top: 2%;
+	padding:0 5px 0 5px;
+	float:right;
+	
+	}
+.weather{
+	display:inline-block;
+	float:left;
+	margin:25px 12px 2px -600px;
+	
+	}
+.gsInfoWrapper{
+	padding-left:3px;
+	padding:0;
+	margin-top:-3px;
+	}
+	
+.gsInformer{
+	width:220px;
+	height:68px !important; 
+	margin-top:-25px !important;
+	}	
+.gsIContent a{
+	font-family: 'Open Sans', sans-serif;
+	color:#696969!important;
+	font-size: 1.075em;
+	text-decoration: none;
+
+}		
+	
